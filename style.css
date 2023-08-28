@@ -65,7 +65,7 @@ body {
   padding: 40px 45px 120px 40px;
 }
 
-#main-image {
+#section1 {
   display: flex;
   background-image: url("images/image1.png");
   width: 1012px;
@@ -74,24 +74,25 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-.inner-center {
+#inner-center {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
   justify-content: flex-end;
+  align-items: center;
 }
 
-.title {
+#main-title {
+  font-family: "Oswald", sans-serif;
   font-size: 14px;
-  margin: 0px auto;
   color: #ffffff;
   letter-spacing: 1.75px;
   background-color: #ff565c;
   padding: 9px 25px 10px 25px;
 }
 
-.main-content {
+#main-content {
   text-align: center;
   color: #ffffff;
   margin: 30px auto 5px auto;
@@ -100,7 +101,7 @@ body {
   line-height: 49px;
 }
 
-.subcontent {
+#main-subcontent {
   color: #7e9e99;
   line-height: 26px;
   opacity: 0.5;
@@ -124,7 +125,7 @@ body {
 
 .action-container {
   display: flex;
-  margin: 0px auto 30px auto;
+  margin-bottom: 30px;
 }
 
 .action-image {
@@ -136,7 +137,7 @@ body {
 .action {
   display: flex;
   align-items: center;
-  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .count {
@@ -145,13 +146,18 @@ body {
   font-size: 13px;
 }
 
+#section2 {
+  display: flex;
+  margin-top: 32px;
+}
+
 #featured {
   color: #1d1f24;
   font-family: "Oswald", sans-serif;
   font-size: 14px;
   width: 316px;
   border: 1px solid #f2f3f6;
-  margin-top: 32px;
+  margin-right: 32px;
 }
 
 #featured-title {
@@ -178,6 +184,44 @@ body {
 .featured-list:last-child {
   border-bottom: 0px solid #f2f3f6;
   margin-bottom: 0px;
+}
+
+#section3 {
+  display: flex;
+}
+
+#section4 {
+  background-image: url("images/image2.png");
+  width: 663px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1.75px;
+  width: min-content;
+  background-color: #ff565c;
+  padding: 9px 25px 10px 25px;
+}
+
+.subcontainer {
+  margin: 19px 0px 0px 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subcontent {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* footer */
