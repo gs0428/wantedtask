@@ -20,8 +20,14 @@ body {
   border-bottom: 1px solid #ebebeb;
 }
 
-#menu {
+#header-wrap {
   width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu {
   display: flex;
 }
 
@@ -33,7 +39,7 @@ body {
   display: flex;
   width: 60px;
   height: 30px;
-  margin-left: 38px;
+  margin-left: 40px;
 }
 
 #dot {
@@ -66,6 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-right: 40px;
 }
 
 .list-line {
@@ -322,7 +329,6 @@ body {
 
 /* footer */
 #footer {
-  height: 160px;
   background-color: #1d1f24;
   width: 100vw;
   position: absolute;
@@ -330,6 +336,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px 0px 50px 0px;
+}
+
+#footer-container {
+  width: 1440px;
+  display: flex;
 }
 
 #footer-div {
@@ -428,6 +440,15 @@ body {
   body {
     overflow-x: hidden;
   }
+  #header-wrap {
+    width: 768px;
+  }
+  #logo-header {
+    margin-left: 20px;
+  }
+  #list {
+    margin-right: 20px;
+  }
   #categories-header {
     display: none;
   }
@@ -454,11 +475,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #footer {
+    flex-direction: column;
+  }
+  #footer-container {
+    width: 768px;
+    flex-direction: column;
+  }
   #categories-footer {
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(3, auto);
     width: 430px;
     height: 87px;
     margin-left: 39px;
+  }
+  #copyright-container {
+    margin-left: 20px;
+    margin-bottom: 45px;
+  }
+  #more-info {
+    flex-direction: row-reverse;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 20px;
+  }
+  #follow-container {
+    justify-self: center;
+    margin-bottom: 0px;
+  }
+  #follow {
+    margin-left: 30px;
   }
 }
