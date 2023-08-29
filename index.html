@@ -11,7 +11,6 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
     </style>
-    <script src="app.js"></script>
   </head>
   <body>
     <header id="header">
@@ -43,11 +42,11 @@
     <main id="main">
       <div id="left">
         <div id="section1">
-          <div id="left-arrow">
-            <img src="images/left.png" alt="none" />
+          <div id="left-arrow-container">
+            <img src="images/left.png" alt="none" id="left-arrow" />
           </div>
-          <div id="right-arrow">
-            <img src="images/right.png" alt="none" />
+          <div id="right-arrow-container">
+            <img src="images/right.png" alt="none" id="right-arrow" />
           </div>
           <div id="inner-center">
             <div id="main-title">FINACE</div>
@@ -240,10 +239,18 @@
           <div id="follow-container">
             <div id="follow">
               Follow us:
-              <img class="icon" src="images/instagram.png" alt="instagram" />
-              <img class="icon" src="images/pinterest.png" alt="instagram" />
-              <img class="icon" src="images/twitter.png" alt="instagram" />
-              <img class="icon" src="images/facebook.png" alt="instagram" />
+              <a href="https://www.instagram.com/">
+                <img class="icon" src="images/instagram.png" alt="instagram" />
+              </a>
+              <a href="https://www.pinterest.co.kr/">
+                <img class="icon" src="images/pinterest.png" alt="instagram" />
+              </a>
+              <a href="https://twitter.com/home?lang=ko">
+                <img class="icon" src="images/twitter.png" alt="instagram" />
+              </a>
+              <a href="https://ko-kr.facebook.com/">
+                <img class="icon" src="images/facebook.png" alt="instagram" />
+              </a>
             </div>
           </div>
           <form id="subscribe">
@@ -254,4 +261,5 @@
       </div>
     </footer>
   </body>
+  <script src="app.js"></script>
 </html>

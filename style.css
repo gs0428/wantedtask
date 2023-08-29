@@ -134,15 +134,19 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-#left-arrow,
-#right-arrow {
-  width: inherit;
+#left-arrow-container,
+#right-arrow-container {
   position: absolute;
   display: flex;
   align-self: center;
 }
 
-#right-arrow {
+#left-arrow-container {
+  z-index: 1;
+}
+
+#right-arrow-container {
+  width: inherit;
   flex-direction: row-reverse;
 }
 
@@ -317,6 +321,10 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-bottom: 2px solid #ffffff;
 }
+#article-button:hover,
+#button:hover {
+  cursor: pointer;
+}
 
 #section9 {
   background-image: url("images/image6.png");
@@ -340,7 +348,7 @@ body {
 }
 
 #footer-container {
-  width: 1440px;
+  min-width: 1440px;
   display: flex;
 }
 
@@ -534,8 +542,8 @@ body {
   #main-content {
     margin-bottom: 77px;
   }
-  #left-arrow,
-  #right-arrow,
+  #left-arrow-container,
+  #right-arrow-container,
   #main-subcontent,
   #section6,
   #section7 {
