@@ -1,5 +1,5 @@
 # wantedtask
-<a href='https://www.wanted.co.kr/events/pre_challenge_fe_13'>원티드 프리온보딩 사전 미션</a>으로 반응형 웹 페이지 퍼블리싱하기
+<a href='https://www.wanted.co.kr/events/pre_challenge_fe_13'>원티드 프리온보딩</a> 사전 미션으로 반응형 웹 페이지 퍼블리싱하기
 - HTML
 - CSS
 - Javascript
